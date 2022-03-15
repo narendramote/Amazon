@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-12T18:22:08 IST" name="Suite" finished-at="2022-03-12T18:27:01 IST" duration-ms="293459">
+    <groups>
+    </groups>
+    <test started-at="2022-03-12T18:22:08 IST" name="ChromeTest" finished-at="2022-03-12T18:24:15 IST" duration-ms="126752">
+      <class name="package123.TestNGAmaz2">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:package123.TestNGAmaz2@7ed7259e]" started-at="2022-03-12T18:22:15 IST" name="LaunchBrowser" finished-at="2022-03-12T18:22:17 IST" duration-ms="1660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:package123.TestNGAmaz2@7ed7259e]" started-at="2022-03-12T18:22:17 IST" name="createObject" finished-at="2022-03-12T18:22:17 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="LoginAmaz()[pri:0, instance:package123.TestNGAmaz2@7ed7259e]" started-at="2022-03-12T18:22:17 IST" name="LoginAmaz" finished-at="2022-03-12T18:23:06 IST" duration-ms="49171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAmaz -->
+        <test-method signature="test456()[pri:0, instance:package123.TestNGAmaz2@7ed7259e]" started-at="2022-03-12T18:23:06 IST" name="test456" finished-at="2022-03-12T18:23:58 IST" duration-ms="51400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test456 -->
+        <test-method is-config="true" signature="LogOut(org.testng.ITestResult)[pri:0, instance:package123.TestNGAmaz2@7ed7259e]" started-at="2022-03-12T18:23:58 IST" name="LogOut" finished-at="2022-03-12T18:24:11 IST" duration-ms="13037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test456 status=SUCCESS method=TestNGAmaz2.test456()[pri:0, instance:package123.TestNGAmaz2@7ed7259e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:package123.TestNGAmaz2@7ed7259e]" started-at="2022-03-12T18:24:11 IST" name="closeDriver" finished-at="2022-03-12T18:24:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="agtertest()[pri:0, instance:package123.TestNGAmaz2@7ed7259e]" started-at="2022-03-12T18:24:12 IST" name="agtertest" finished-at="2022-03-12T18:24:15 IST" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agtertest -->
+      </class> <!-- package123.TestNGAmaz2 -->
+      <class name="package123.TestNGAmaz">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:package123.TestNGAmaz@2c767a52]" started-at="2022-03-12T18:22:08 IST" name="LaunchBrowser" finished-at="2022-03-12T18:22:15 IST" duration-ms="7364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:package123.TestNGAmaz@2c767a52]" started-at="2022-03-12T18:22:17 IST" name="createObject" finished-at="2022-03-12T18:22:17 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="LoginAmaz()[pri:0, instance:package123.TestNGAmaz@2c767a52]" started-at="2022-03-12T18:22:17 IST" name="LoginAmaz" finished-at="2022-03-12T18:23:09 IST" duration-ms="52290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAmaz -->
+        <test-method signature="test456()[pri:0, instance:package123.TestNGAmaz@2c767a52]" started-at="2022-03-12T18:23:09 IST" name="test456" finished-at="2022-03-12T18:23:49 IST" duration-ms="39734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test456 -->
+        <test-method is-config="true" signature="LogOut(org.testng.ITestResult)[pri:0, instance:package123.TestNGAmaz@2c767a52]" started-at="2022-03-12T18:23:49 IST" name="LogOut" finished-at="2022-03-12T18:24:01 IST" duration-ms="11904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test456 status=SUCCESS method=TestNGAmaz.test456()[pri:0, instance:package123.TestNGAmaz@2c767a52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:package123.TestNGAmaz@2c767a52]" started-at="2022-03-12T18:24:01 IST" name="closeDriver" finished-at="2022-03-12T18:24:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="agtertest()[pri:0, instance:package123.TestNGAmaz@2c767a52]" started-at="2022-03-12T18:24:11 IST" name="agtertest" finished-at="2022-03-12T18:24:12 IST" duration-ms="1470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agtertest -->
+      </class> <!-- package123.TestNGAmaz -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-03-12T18:24:18 IST" name="EdgeTest" finished-at="2022-03-12T18:27:01 IST" duration-ms="163194">
+      <class name="package123.TestNGAmaz2">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:package123.TestNGAmaz2@4567f35d]" started-at="2022-03-12T18:24:23 IST" name="LaunchBrowser" finished-at="2022-03-12T18:24:27 IST" duration-ms="3933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:package123.TestNGAmaz2@4567f35d]" started-at="2022-03-12T18:24:27 IST" name="createObject" finished-at="2022-03-12T18:24:27 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="LoginAmaz()[pri:0, instance:package123.TestNGAmaz2@4567f35d]" started-at="2022-03-12T18:24:27 IST" name="LoginAmaz" finished-at="2022-03-12T18:25:29 IST" duration-ms="62438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAmaz -->
+        <test-method signature="test456()[pri:0, instance:package123.TestNGAmaz2@4567f35d]" started-at="2022-03-12T18:25:29 IST" name="test456" finished-at="2022-03-12T18:26:45 IST" duration-ms="76346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test456 -->
+        <test-method is-config="true" signature="LogOut(org.testng.ITestResult)[pri:0, instance:package123.TestNGAmaz2@4567f35d]" started-at="2022-03-12T18:26:46 IST" name="LogOut" finished-at="2022-03-12T18:26:57 IST" duration-ms="11944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test456 status=SUCCESS method=TestNGAmaz2.test456()[pri:0, instance:package123.TestNGAmaz2@4567f35d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:package123.TestNGAmaz2@4567f35d]" started-at="2022-03-12T18:26:57 IST" name="closeDriver" finished-at="2022-03-12T18:26:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="agtertest()[pri:0, instance:package123.TestNGAmaz2@4567f35d]" started-at="2022-03-12T18:27:00 IST" name="agtertest" finished-at="2022-03-12T18:27:01 IST" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agtertest -->
+      </class> <!-- package123.TestNGAmaz2 -->
+      <class name="package123.TestNGAmaz">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:package123.TestNGAmaz@5ffead27]" started-at="2022-03-12T18:24:18 IST" name="LaunchBrowser" finished-at="2022-03-12T18:24:23 IST" duration-ms="4561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:package123.TestNGAmaz@5ffead27]" started-at="2022-03-12T18:24:27 IST" name="createObject" finished-at="2022-03-12T18:24:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="LoginAmaz()[pri:0, instance:package123.TestNGAmaz@5ffead27]" started-at="2022-03-12T18:24:27 IST" name="LoginAmaz" finished-at="2022-03-12T18:25:30 IST" duration-ms="62802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAmaz -->
+        <test-method signature="test456()[pri:0, instance:package123.TestNGAmaz@5ffead27]" started-at="2022-03-12T18:25:30 IST" name="test456" finished-at="2022-03-12T18:26:40 IST" duration-ms="70576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test456 -->
+        <test-method is-config="true" signature="LogOut(org.testng.ITestResult)[pri:0, instance:package123.TestNGAmaz@5ffead27]" started-at="2022-03-12T18:26:40 IST" name="LogOut" finished-at="2022-03-12T18:26:57 IST" duration-ms="17388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test456 status=SUCCESS method=TestNGAmaz.test456()[pri:0, instance:package123.TestNGAmaz@5ffead27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:package123.TestNGAmaz@5ffead27]" started-at="2022-03-12T18:26:57 IST" name="closeDriver" finished-at="2022-03-12T18:26:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="agtertest()[pri:0, instance:package123.TestNGAmaz@5ffead27]" started-at="2022-03-12T18:26:57 IST" name="agtertest" finished-at="2022-03-12T18:27:00 IST" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agtertest -->
+      </class> <!-- package123.TestNGAmaz -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
